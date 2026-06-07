@@ -1,0 +1,24 @@
+
+# Executables
+*.exe
+*.out
+
+# Object files
+*.o
+*.obj
+
+# VS Code temporary files
+tempCodeRunnerFile.cpp
+
+# VS Code settings (optional)
+.vscode/
+
+# Build folders
+build/
+bin/
+
+# Debug files
+*.pdb
+
+# Logs
+*.log
