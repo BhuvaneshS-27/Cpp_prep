@@ -16,8 +16,6 @@ to pull changes from repository to local:
 git pull origin main --rebase
 
 
-
-
 # Cpp_prep
 
 A collection of C++ programs covering:
