@@ -3,20 +3,14 @@ using namespace std;
 
 void bubblesort(int arr[],int n)
 {
-    for(int i=n-1;i>=1;i--) //i fixing the last limit 
+   for(int i=0;i<=n-2;i++)
+   {
+    for(int j=0;j<=n-2-i;j++)
     {
-        bool didSwap=0;
-        for(int j=0;j<=i-1;j++) //iterating and swapping upto the last minute
-        {
-            if(arr[j]>arr[j+1])
-            {
-                swap(arr[j],arr[j+1]);
-                didSwap=1;
-            }
-        }
-        if(didSwap==0)
-        break;
+        if(arr[j]>arr[j+1])
+        swap(arr[j],arr[j+1]);
     }
+   }
 
 }
 

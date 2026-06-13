@@ -8,7 +8,7 @@ void selectionsort(int arr[],int n)     //O(N^2)
     for(int i=0;i<=n-2;i++) //comparison loop
     {
         min_index=i;
-        for(int j=i;j<=n-1;j++)
+        for(int j=i;j<=n-1;j++) //loop to find minimum
         {
             if(arr[j]<arr[min_index])
             {
